@@ -7,6 +7,7 @@ name = "llmjournal"
 version = "0.1.0"
 description = "Record LLM calls, cost and payloads; shape them for your own database; render them as HTML. No server."
 requires-python = ">=3.10"
+license = "MIT"
 dependencies = []
 
 [project.optional-dependencies]
