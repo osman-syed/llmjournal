@@ -1,7 +1,7 @@
 # llmjournal
 
 Record LLM calls and their cost, save them in **your** database, and view them as HTML pages.
-There's no server to run and the package has no dependencies. See [DESIGN.md](DESIGN.md).
+There's no server to run and the package has no dependencies. See [DESIGN.md](https://github.com/osman-syed/llmjournal/blob/main/DESIGN.md).
 
 ```python
 import llmjournal as lj
@@ -26,7 +26,7 @@ traces = lj.from_rows("recent_traces", "dynamodb", [table.query(**q)["Items"] fo
 html = lj.render_trace_list(traces)
 ```
 
-Full examples: [`examples/dynamodb_sink.py`](examples/dynamodb_sink.py), [`examples/lambda_viewer.py`](examples/lambda_viewer.py).
+Full examples: [`examples/dynamodb_sink.py`](https://github.com/osman-syed/llmjournal/blob/main/examples/dynamodb_sink.py), [`examples/lambda_viewer.py`](https://github.com/osman-syed/llmjournal/blob/main/examples/lambda_viewer.py).
 
 ## Develop
 
